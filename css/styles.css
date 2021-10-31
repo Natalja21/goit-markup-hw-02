@@ -5,3 +5,10 @@ color: #757575;
 ul {
     list-style: none;
 }
+/* header */
+.logo {
+  color: #212121;  
+}
+.logo-element {
+    color: #2196F3;
+}
