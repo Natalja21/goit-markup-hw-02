@@ -1,14 +1,50 @@
 body {
-background:#E5E5E5 ;
-color: #757575;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
-ul {
-    list-style: none;
+
+.list {
+ list-style: none;
 }
-/* header */
+.link {
+  text-decoration: none;
+  color: #212121;
+  
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+/* .........HEADER........ */
 .logo {
-  color: #212121;  
+  color: #2196f3;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
 .logo-element {
-    color: #2196F3;
+  color: #212121;
+}
+.logo-element-footer {
+  color: #ffffff;
+}
+
+.studio,
+.mail {
+  color: #2196f3;
+}
+/* hero */
+.hero {
+  background: #2f303a;
+  
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
