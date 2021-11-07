@@ -79,11 +79,10 @@ body {
   text-transform: uppercase;
 }
 .hero-button:hover {
-background: #188CE8;
-
+  background: #188ce8;
 }
 .hero-button {
-  padding: 10px 32px;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -91,6 +90,7 @@ background: #188CE8;
   letter-spacing: 0.06em;
   cursor: pointer;
   border: none;
+  padding: 10px 32px;
   background-color: #2196f3;
   color: var(--second-buttons-color);
 }
@@ -159,9 +159,6 @@ background: #188CE8;
 .address-iink,
 .address-mail,
 .address-tel {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -188,7 +185,7 @@ background: #188CE8;
   border-radius: 4px;
 }
 .menu-button {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
