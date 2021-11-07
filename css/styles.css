@@ -78,20 +78,27 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.hero-button:hover {
+background: #188CE8;
+
+}
 .hero-button {
+  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border: none;
   background-color: #2196f3;
   color: var(--second-buttons-color);
 }
 /* ...........ABOUT.......... */
 .about-section {
-  background: #e5e5e5;
+  background: #ffffff;
 }
+
 .about-subtitle {
   font-weight: 700;
   font-size: 14px;
