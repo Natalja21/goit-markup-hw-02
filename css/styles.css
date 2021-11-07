@@ -195,6 +195,7 @@ body {
   color: var(--buttons-color);
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 .projects-subtitle {
   font-weight: 700;
